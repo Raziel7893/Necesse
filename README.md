@@ -11,7 +11,7 @@
 - The ServerMap field will be used for choosing your world/savegame
 - If you change the datadir value, you will need to start the Server once without the -nogui parameter to setup the world and initial config.
 
-### Migrate basicSteamCmd server
+### Migrate old server
 - move your datafolder from %appdata%\\Necesse to serverfiles\\data
 - in the end it should look like serverfiles\\data\\cfg
 
