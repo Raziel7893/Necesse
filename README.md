@@ -40,7 +40,7 @@
   - WindowsGSM\servers\%ID%\configs
 
 ### Available Params
-settings are in %appdata%\Necesse\cfg.
+settings are in serverfiles\data\cfg. (click Browse => serverfiles)
 Activly applied Wgsm Configs (those will most likely overwrite whats in the cfg):
 - Server Start Param		//passed to serverexecutable
 - Server Map				//used to choose which world/savegame is used
