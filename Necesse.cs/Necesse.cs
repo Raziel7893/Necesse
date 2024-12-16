@@ -190,8 +190,9 @@ namespace WindowsGSM.Plugins
             await Task.Run(() =>
             {
                 Functions.ServerConsole.SetMainWindow(p.MainWindowHandle);
-                Functions.ServerConsole.SendWaitToMainWindow("^c");
-                p.WaitForExit(2000);
+                Functions.ServerConsole.SendWaitToMainWindow("stop");
+                Functions.ServerConsole.SendWaitToMainWindow("{ENTER}");
+                p.WaitForExit(2500);
                 if (!p.HasExited)
                     p.Kill();
             });
